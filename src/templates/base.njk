@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="ru">
+  {% include "components/head/head.njk" %}
+  <body>
+    {% include "components/header/header.njk" %}
+    <main>
+    {% block main %}
+      <h1>Kaleidoscrope Template</h1>
+    {% endblock %}
+    </main>
+    {% include "components/footer/footer.njk" %}
+    {% include "components/scripts.njk" %}
+  </body>
+</html>
